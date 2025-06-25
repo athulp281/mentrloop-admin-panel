@@ -100,7 +100,7 @@ const LogInRegForm = () => {
       <FormikProvider value={formik}>
         <Form autoComplete="off" noValidate onSubmit={handleSubmit}>
           {mdUp ? null : (
-            <Box sx={{ ml: 5 }}>
+            <Box sx={{ ml: 0 }}>
               <Logo />
             </Box>
           )}
